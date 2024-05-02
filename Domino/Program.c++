@@ -2,10 +2,16 @@
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
-
+int a,b,c,d;
 int main()
 {
-	cout<<"Hello World\b\b\b\b\b\b\b    \n";
+	cin>>a>>b>>c>>d;
+	if(a==c||a==d||b==c||b==d){
+		cout<<"YES";
+	}
+	else{
+		cout<<"NO";
+	}
 	return 0;
 }
 
